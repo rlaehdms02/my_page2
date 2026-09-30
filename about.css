@@ -1,0 +1,194 @@
+/* home.css */
+
+/* 기본 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+
+.back {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 30px;
+  color: white;
+}
+
+
+.back > div:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.back .sub {
+  display: flex;
+  gap: 20px;
+}
+
+
+.back .sub sub {
+  font-size: 14px;
+  vertical-align: baseline;
+  cursor: pointer;
+}
+
+
+.back .sub mark {
+  background-color: transparent;
+  color: #ffd700;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h2 {
+  background-color: #e5e5e5;
+  text-align: left;
+  padding: 20px 5px;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 > div:first-of-type {
+  font-size: 16px;
+  color: #555;
+  margin: 15px 0 30px 0;
+  font-weight: normal;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+}
+.menu-photo {
+  background-color: #c4c4c4;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  font-size: 14px;
+}
+.menu-text{
+  margin-left: 80px;
+  padding: 20px 5px ;
+  line-height: 30px;
+  font-weight: normal;
+}
+.abc h3{
+  margin: 15px 0px;
+  font-weight: bold;
+  padding: 5px 5px;
+  background-color: #aaa;
+  border-left:5px solid #333;
+}
+.year {
+  display: grid;
+  grid-template-columns: 1fr 4fr; 
+  margin: 10px 0;
+  border-top: 2px solid #333; 
+  border-left: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+
+.year1 > div,
+.year2 > div {
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  
+  
+  min-height: 45px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.year1 > div:first-child,
+.year2 > div:first-child {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.abc h3{
+  margin: 15px 10px;
+
+  padding: 5px 5px;
+  background-color: #aaa;
+  border-left:5px solid #333;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 3fr 6fr; 
+  margin: 10px 0;
+  border-top: 2px solid #333; 
+  border-left: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+.content {
+  display: grid;
+  
+  grid-template-columns: 1fr 2fr 2fr 2fr; 
+  margin: 10px 0;
+  border-top: 2px solid #333; 
+  border-left: 1px solid #ccc;
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+
+.content0 > div,
+.content1 > div,
+.content2 > div ,
+.content3> div{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+  
+  
+  min-height: 45px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.content0 > div:first-child,
+.content1 > div:first-child,
+.content2 > div:first-child, 
+.content3 > div:first-child{
+  background-color: #f2f2f2;
+  font-weight: bold;
+  
+}
+footer {
+  background-color: #333;
+  color: #aaa;
+  padding: 20px 30px;
+  font-size: 12px;
+  line-height: 1.6;
+}

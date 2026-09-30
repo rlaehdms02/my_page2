@@ -1,0 +1,138 @@
+/* home.css */
+
+/* 기본 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+
+.back {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 30px;
+  color: white;
+}
+
+
+.back > div:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.back .sub {
+  display: flex;
+  gap: 20px;
+}
+
+
+.back .sub sub {
+  font-size: 14px;
+  vertical-align: baseline;
+  cursor: pointer;
+}
+
+
+.back .sub mark {
+  background-color: transparent;
+  color: #ffd700;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h2 {
+  background-color: #e5e5e5;
+  text-align: left;
+  padding: 20px 5px;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 > div:first-of-type {
+  font-size: 16px;
+  color: #555;
+  margin: 15px 0 30px 0;
+  font-weight: normal;
+}
+.abc h3{
+  margin: 15px 0px;
+
+  padding: 5px 5px;
+  background-color: #aaa;
+  border-left:5px solid #333;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ddd;
+}
+
+.menu-photo {
+  background-color: #c4c4c4;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  font-size: 14px;
+}
+
+.menu-info {
+  padding: 15px;
+}
+
+.menu-info h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.menu-info p {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.menu-info .price {
+  color: #e50000;
+  font-weight: bold;
+  font-size: 15px;
+}
+.intro-flex {
+  display: flex;
+  gap: 30px;
+}
+
+.abc{
+  
+
+  
+  margin: 50px 20px;
+
+  
+  padding: 30px 30px;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #aaa;
+  padding: 20px 30px;
+  font-size: 12px;
+  line-height: 1.6;
+}
