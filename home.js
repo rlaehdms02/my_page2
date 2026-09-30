@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (navHome) {
     navHome.addEventListener('click', function(e) {
       e.preventDefault();
-      window.location.href = './main.html';
+      window.location.href = './index.html';
     });
   }
 
