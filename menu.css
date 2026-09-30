@@ -77,10 +77,12 @@ h2 > div:first-of-type {
 }
 
 
+
 .menu-photo {
   background-color: #c4c4c4;
   height: 180px;
   overflow: hidden; 
+  position: relative;
 }
 
 
